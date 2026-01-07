@@ -8,3 +8,7 @@ print("stash files changes(changes are saved temporary but these aren't commited
 # git commit requires message attached with it
 
 # first do git add and then do git commit(helps track of changes in better way)
+
+# once file is added there will be a A(icon at the end of file in tree structure)
+
+# once changes are commited then in order them to reflect into repo we have to run git push command
