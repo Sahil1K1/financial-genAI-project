@@ -12,3 +12,5 @@ print("stash files changes(changes are saved temporary but these aren't commited
 # once file is added there will be a A(icon at the end of file in tree structure)
 
 # once changes are commited then in order them to reflect into repo we have to run git push command
+
+# commit creates a history line everytime(so for timelines use git commit, to stage them use git add and to push final changes to use git push)
