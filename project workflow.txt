@@ -1,0 +1,37 @@
+genai-finance-project/
+│
+├── data/
+│   ├── raw/
+│   │   └── financial_data_example.xlsx
+│   ├── processed/
+│   └── outputs/
+│
+├── src/
+│   ├── ingestion/
+│   │   └── load_data.py
+│   ├── preprocessing/
+│   │   └── clean_transform.py
+│   ├── llm/
+│   │   ├── prompt_templates.py
+│   │   └── generate_insights.py
+│   ├── workflow/
+│   │   └── pipeline.py
+│   ├── utils/
+│   │   └── logger.py
+│   └── app.py
+│
+├── notebooks/
+│   └── exploration.ipynb
+│
+├── config/
+│   └── settings.yaml
+│
+├── examples/
+│   └── example_prompts.md
+│
+├── requirements.txt
+├── README.md
+└── .env   (API keys)
+
+
+Excel → Preprocessing → Feature Engineering → Vector DB → Prompt Templates → LLM → Streamlit Output

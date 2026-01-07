@@ -1,0 +1,4 @@
+raw_path: "/mnt/data/Financial_data_final.xlsx"
+processed_dir: "data/processed"
+outputs_dir: "data/outputs"
+llm_model: "gpt-4o-mini"
