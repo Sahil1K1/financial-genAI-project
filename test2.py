@@ -23,3 +23,14 @@ print("stash files changes(changes are saved temporary but these aren't commited
 
 # now once the changes are in local(master branch) now we can push these changes to github
 # git push origin master
+
+# now once the changes are merged to master, next is to create a tag
+# a tag is like a version of project(v1.0.0) and it is used for deployment in later phases.
+
+# in order to create a tag first we need to push all changes of personal branch into github
+# then checkout to master branch > take latest pull > merge personal into master(resolve conflict if any)
+# push changes to master
+
+# now stay on master and create a tag
+# simple and easy tag == git tag
+# if we want to add annotations with it like date, email and other information == git tag -a v1.0.0 -m "First stable version"
