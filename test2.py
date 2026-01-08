@@ -14,3 +14,12 @@ print("stash files changes(changes are saved temporary but these aren't commited
 # once changes are commited then in order them to reflect into repo we have to run git push command
 
 # commit creates a history line everytime(so for timelines use git commit, to stage them use git add and to push final changes to use git push)
+
+# once changes/modifications are done in personal branch next step is to merge those changes in master branch
+# first change branch to master(git checkout master) > then take latest pull from master(very important)(git pull origin master) > merge personal branch into master(git merge SahilPersonalBranch)
+# after this there are two possiblilities first is get no conflicts
+# another is to get conflict issue(in order to resolve those issues we have to add and commit our changes in master)
+# git add . > git commit
+
+# now once the changes are in local(master branch) now we can push these changes to github
+# git push origin master
