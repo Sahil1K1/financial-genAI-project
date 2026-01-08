@@ -34,3 +34,10 @@ print("stash files changes(changes are saved temporary but these aren't commited
 # now stay on master and create a tag
 # simple and easy tag == git tag
 # if we want to add annotations with it like date, email and other information == git tag -a v1.0.0 -m "First stable version"
+# once tag is created then push those changes to master
+# git push origin v1.0.0
+
+# if user wanted to make some changes in old commits
+# first is to make changes in the latest commit then make changes and use git add .(to stage those changes)
+# then use git commit --amend (it will open editor to make changes in message)
+# if we don't want to change message as well then we can use == git commit --amend --no-edit
